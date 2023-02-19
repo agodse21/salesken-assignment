@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+box-sizing: border-box;
+}
+
+body{
+margin: 0;
+font-family: poppins, Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #666666;
+background: #eaeff4;
+}
+#nav{
+    width: 100%;
+    background: #2aa15f;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:12%;
+}
+#logo>p{
+    margin-top: 4px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#logo>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+}
+#logo>div>div:nth-child(1){
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+  font-size: 20px;
+  transform: rotate(-15deg)
+  
+}
+#logo>div>div:nth-child(2){
+    width: 30px;
+    height: 30px;
+    background-color:yellow;
+    color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transform: rotate(15deg)
+}
+#logo>div>div:nth-child(3){
+    width: 30px;
+    height: 30px;
+    background-color:rgb(140, 0, 255);
+    color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transform: rotate(-15deg)
+}
+#logo>div>div:nth-child(4){
+    width: 30px;
+    height: 30px;
+    background-color:blue;
+    color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transform: rotate(15deg)
+}
+#logo>div>div:nth-child(5){
+    width: 30px;
+    height: 30px;
+    background-color:orangered;
+    color:white;
+  font-weight: bold;
+  font-size: 20px;
+  transform: rotate(-15deg)
+}
+#logo>div>div:nth-child(6){
+    width: 30px;
+    height: 30px;
+    background-color:pink;
+   color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transform: rotate(15deg)
+}
+#logo>div>div:nth-child(7){
+    width: 30px;
+    height: 30px;
+    background-color:rgb(255, 213, 0);
+   color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transform: rotate(-15deg)
+}
+#logo>div>div:nth-child(8){
+    width: 30px;
+    height: 30px;
+    background-color:rgb(79, 2, 2);
+   color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transform: rotate(15deg)
+}
+
+#logoutWrapper{
+    display: flex;
+gap: 10px;
+align-items: center;
+color: white;
+}
+#logOut{
+    color: white;
+    background: red;
+    border: none;
+    height: fit-content;
+    padding: 8px;
+    font-family: Poppins;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#playAgain{
+    display: inline-block;
+    font-family: poppins;
+    padding: 7px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+    outline: none;
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    transition: .3s;
+    cursor: pointer;
+}
+#playAgain:hover{
+    color: #ffffff;
+        box-shadow: inset 250px 0 0 0 #2aa15f;
+}
+.wrapper{
+    margin: auto;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 50vh;
+    /* margin: 50px; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+    .container{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    color: black;
+    background: #ffffff;
+    box-shadow: 0 0 5px #999999;
+    padding: 10px;
+    
+    border-radius: 10px;
+    }
+    #title{
+        text-align: center;
+        text-decoration: underline;
+    }
